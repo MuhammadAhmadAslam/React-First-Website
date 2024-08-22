@@ -7,4 +7,23 @@
     padding: 0;
     box-sizing: border-box;
     border: 1px solid black;
+    user-select: none;
+}
+nav{
+    border-bottom: 1px solid #FFDD00;
+}
+nav,section{
+    background-color: #003366;
+    color: #FFDD00;
+}
+nav h1{
+    cursor: pointer;
+}
+@media screen and (min-width: 0px) and (max-width: 550px){
+    section h1{
+        font-size: 3rem !important;
+    }
+    section{
+        padding: 5px !important;
+    }
 }
