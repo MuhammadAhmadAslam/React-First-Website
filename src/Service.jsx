@@ -3,6 +3,7 @@ let Services = () => {
     return(
         <main className="text-gray-600 body-font" id="services">
   <div className="container px-5 py-24 mx-auto">
+        <h1 className="text-center mt-10 text-5xl font-extrabold py-10">Our Services</h1>
     <div className="text-center mb-20">
       <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
       Lorem ipsum dolor sit amet consectetur, adipisicing
